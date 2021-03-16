@@ -1,0 +1,82 @@
+:root {
+  --primary: rgb(0, 0, 170);
+  --secondary: rgb(255, 255, 255);
+  --tertiary:  rgb(169, 169, 223);
+}
+
+
+header{
+height: 150px;
+background-color: var(--primary);
+margin-bottom: 80px;
+justify-content: center;
+align-content: center;
+}
+
+
+h1{
+  color: white;
+  font-size: 80px;
+  font-family: 'Roboto', sans-serif;
+}
+
+main{
+  padding-left: 20%;
+  display:flex;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 500px;
+  
+}
+
+footer{
+background-color: var(--primary);
+height: 100px;
+
+
+position: fixed;
+left:0%;
+bottom:0%;
+width:100%;
+
+
+}
+
+
+h2,h3,h4,p {
+  margin: 0;
+}
+
+.main-text{
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.diagram{
+  margin-top: 160px;
+  margin-right: 40px;
+  margin-left: 109px;
+  
+}
+
+.primary-heading{
+  text-align: center;
+  font-size: 65px;
+  padding-top: 20px;
+  border-top:var(--tertiary) solid 25px;
+  margin-bottom: 40px;
+  
+  
+}
+
+.secondary-heading{
+  font-size: 20px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+
+.d-flex{
+  display:flex;
+
+}
